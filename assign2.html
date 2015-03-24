@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2015 by anonymous (http://jsbin.com/xijonofuye/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex"><title>專案實作Ⅱ</title>
+
+<style id="jsbin-css">
+.course-description h3,
+.course-steps h3,
+.course-tips h3{
+  font-size:2em;
+  border-bottom:1px solid;
+}
+
+.course-description p{
+  font: 1em/1.5 serif;
+}
+
+article#course{
+  max-width:600px;
+  padding:1em;
+  
+  background: url(http://subtlepatterns.com/patterns/school.png);
+    
+  border-radius:1em;
+}
+
+#course img{
+  width:100%;
+  padding:1em;
+  background-color:#ffffff;
+  box-sizing:border-box;
+}
+
+.qa_title{
+  margin-top:1em;
+}
+
+.qa_title span{
+  margin-right:1em;
+}
+
+.qa_title{
+  list-style-type:none;
+}
+
+.qa_title>li{
+  padding:3px 10px;
+}
+
+.qa_content>li:nth-child(odd){
+  background-color:rgba(255,255,255,0.5);
+}
+
+.qa_title{
+  display:inline-block;
+  width:200px;
+  
+}
+.qa_title{
+  color:darkblue;
+  text-decoration: underline;
+}
+</style>
+</head><body>
+
+<img src="http://cis.nccu.edu.tw/InstructionOutline/static/images/outline01.gif" />
+<br />
+
+<table width="100%" border="0">
+    <tbody>
+        <tr>
+            <td width="25%">
+                <font color="green">學年學期 Academic Year / Semester</font>
+            </td>
+            <td colspan="3">
+                103學年度第2學期
+            </td>
+            <td colspan="3">
+                Spring Semester, 2015
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">開課單位 Course Department</font>
+            </td>
+            <td colspan="3">
+                數位學程                                                                                                
+                
+            </td>
+            <td colspan="3">
+                Digital Technologies and Contents Undergraduate Degree Program                                                                                                                                          
+                
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">課程名稱 Course Name</font>
+            </td>
+            <td colspan="3">
+                (中 Ch.)專案實作Ⅱ
+            </td>
+            <td colspan="3">
+                (英 Eng.)Special Projects on Digital Content and Technology II
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">授課教師 Instructor</font>
+            </td>
+            <td colspan="3">
+                廖峻鋒
+            </td>
+            <td colspan="3">
+                LIAO CHUN-FENG
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">職稱 Title</font>
+            </td>
+            <td colspan="3">
+                專任助理教授
+            </td>
+            <td colspan="3">
+                Assistant Professor
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">學分數 No. of Credits</font>
+            </td>
+            <td colspan="3">
+                2.0
+            </td>
+            <td colspan="3">
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">修別 Type of Credit</font>
+            </td>
+            <td colspan="3">
+                必修
+            </td>
+            <td colspan="3">
+                Required
+            </td>
+        </tr>
+        <tr>
+            <td width="25%">
+                <font color="green">先修科目 Prerequisite(s)</font>
+            </td>
+            <td colspan="3">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+            </td>
+            <td colspan="3">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="7">
+                <a target="_blank" href='http://cis.nccu.edu.tw/CourseMap/Students/CourseDetail.aspx?schYy=103&schSmt=2&subNum=781016&subGop=00&smt=1&teaNum=118634'>點閱核心能力分析圖與授課方式比例圖</a>
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+<article id="course">
+<div class="accordionPart">
+    <span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+
+            <h3>課程目標 Course objectives</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p>「專案實作」課程將整合學生在數位內容學程的學習成果，透過「專案實作I」與「專案實作II」兩學期的課程規劃，於學年結束前公開展示，類似畢業展演。修課同學將依照專案主題進行分組分工，籌組工作團隊，訂定工作流程與展演架構。同學另需任務編組，在遴選出畢展總召之後，一起合作籌備畢展各項事宜。「專案實作I」以規劃與準備各專案內容為主，「專案實作II」則為畢業展演做行銷宣傳，透過實作與個別指導，讓學生針對有興趣的數位內容主題，利用所學到的知識與技能，發揮創意，在內容與技術上設計與完成具深度的實作。學程亦可能協助該主題尋求建教合作機會。</p>
+            
+        </div>
+    </span><span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>課程大綱 Course Description</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p>1.擬定專案主題，進行人員組合與團隊分工。 
+<br />2.選出畢展籌備幹部與工作分組，訂定畢展總主題。 
+<br />3.按照工作進度，逐步完成專案內容。 
+<br />4.逐步籌備下學期畢展各項工作。</p>
+            
+        </div>
+    </span><span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>上課進度 Class schedule</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p>於第一週上課時，與修課同學共同商討並決定專案與畢展之工作進度。</p>
+            
+        </div>
+    </span><span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>教學方式 Teaching approach</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p>依專案內容分組，必要時得請求數位內容學程碩士同學來擔任專案指導老師，利用每週上課時間，商討並檢核工作進度。 
+<br />畢展籌備工作，同樣利用每週上課時間共同商討並檢核進度。</p>
+            
+        </div>
+    </span><span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>教學助理工作項目 Teaching assistant tasks</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p></p>
+            
+        </div>
+    </span><span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>課程要求/評分標準 Course requirements/Grading standards</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p>每週上課出席與參與情形 20% 
+<br />專案分組工作執行與參與 30% 
+<br />畢展分工執行與參與 30% 
+<br />期末工作成果呈現與報告 20%</p>
+            
+        </div>
+    </span><span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3參考書目 Textbook & references （為維護智慧財產權，請務必使用正版書籍）</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p>依各專案內容需求，另指定相關閱讀教材與參考資料。</p>
+            
+        </div>
+    </span>
+    <span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>課程相關連結 Course related links</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            <p></p>
+            
+        </div>
+    </span>
+    <span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            <h3>本課程附件 Course attachments</h3>
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+            
+                
+    </span>
+       <span>
+        <div class="qa_title" style="width: 100%; padding-left: 0px !important;">
+            
+        </div>
+        <div class="qa_content" style="width: 100%; padding-left: 0px !important;">
+          <p>課程進行中，是否禁止使用智慧型手機、平板等隨身設備。</p>
+            <p>需經教師同意始得使用</p><br />
+            <p></p>          
+        </div>
+    </span>
+</div>
+<a href="form.html">課程問卷</a>
+<script src="http://static.jsbin.com/js/render/edit.js?3.25.22"></script>
+<script>jsbinShowEdit && jsbinShowEdit({"static":"http://static.jsbin.com","root":"http://jsbin.com"});</script>
+<script src="http://static.jsbin.com/js/vendor/eventsource.js?3.25.22"></script>
+<script src="http://static.jsbin.com/js/spike.js?3.25.22"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-1656750-34', 'jsbin.com');
+ga('require', 'linkid', 'linkid.js');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+
+</script>
+
+</body></html>
